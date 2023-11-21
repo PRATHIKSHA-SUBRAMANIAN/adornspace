@@ -1,0 +1,39 @@
+.auth__form {
+    padding: 50px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+.frm{
+    background-color: var(--primary-color);
+    padding-top: 25px;
+}
+
+.log{
+    padding: 20px;
+    margin-top: 3px;
+    align-items: center;  
+}
+
+.auth__btn {
+    background:rgb(243, 83, 20) !important;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.auth__form p {
+    margin-top: 30px;
+}
+
+.auth__form p a {
+    color: rgba(255, 255, 255, 0.979);
+}
+
+.auth__form input[type='file'] {
+    color: #fff;
+    cursor: pointer ;
+}
+
+.auth__form .error-message{
+    color: red;
+}

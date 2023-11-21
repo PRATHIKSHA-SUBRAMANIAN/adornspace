@@ -1,0 +1,26 @@
+.common__section {
+    background-image: url("https://t3.ftcdn.net/jpg/03/51/51/28/360_F_351512882_2kFH8IaSe4lyA7SXBLzEXyGKNEgbO1iH.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.common__section h1 {
+    color: #000000;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px){
+    .common__section{
+        padding: 70px 0px;
+    }
+    .common__section h1{
+        font-size: 1.4rem;
+        
+    }
+}

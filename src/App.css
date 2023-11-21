@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300&family=Rubik:wght@300&display=swap');
+
+/*  css variables */
+:root {
+  --card-bg-01: #f56a25;
+  --card-bg-02: #f3f5f7;
+  --card-bg-03: #a4b1b0;
+  --card-bg-04: #adb39c;
+  --primary-color: #2d2d2e;
+  --hero-bg: #8a8d91;
+  --heading-fontSize: 2rem;
+  --small-text-color: #999;
+  --heading-text-color: #0b0b0c;
+}
+
+/* reset browser default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+img{
+  width: 100%;
+}
+section{
+  padding: 60px 0px;
+}
+
+.section__title{
+  color: #1b1b1b;
+  font-weight: 600;
+}
+
+@media only screen and (max-width:786px){
+  section{
+    padding: 40px 0px;
+  }
+}

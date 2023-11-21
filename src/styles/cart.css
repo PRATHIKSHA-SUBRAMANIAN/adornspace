@@ -1,0 +1,31 @@
+.table tr td img{
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+}
+
+td i{
+    cursor: pointer;
+}
+td,th{
+    color: #1b1b1b;
+}
+
+
+  
+  
+  .quantity-button button {
+    background-color: rgb(236, 74, 10);
+    color: #fff; 
+    border: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .quantity-button button:hover {
+    background-color: rgb(255, 123, 0); 
+  }
+  
+  
